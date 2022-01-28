@@ -1,0 +1,157 @@
+﻿
+/** AMOUNT REQUIRED RANGE SLIDER **/
+
+.AmountRequiredSliderDiv {
+    width: 100%;
+    height: 50px;
+    margin: 24% auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    position: relative;
+}
+
+#AmountRequiredSlider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 13px;
+    outline: none;
+    border-radius: 3px;
+    background-color: #808080;
+    cursor: pointer;
+}
+
+    #AmountRequiredSlider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 48px;
+        height: 50px;
+        cursor: pointer;
+        z-index: 3;
+        position: relative;
+    }
+
+#AmountRequiredSliderSelector {
+    height: 130px;
+    width: 48px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+#AmountRequiredSliderButton {
+    height: 35px;
+    width: 35px;
+    background-image: url(/shared/money.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 28%;
+    left: 15%;
+}
+
+#AmountRequiredSliderValue {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background: #00ff90;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    left: -26px;
+}
+
+    #AmountRequiredSliderValue::after {
+        content: '';
+        border-top: 15px solid #00ff90;
+        border-left: 24px solid #fff;
+        border-right: 24px solid #fff;
+        position: absolute;
+        bottom: -14px;
+        left: 26px;
+    }
+
+#AmountRequiredSliderLabels {
+    padding-top: 10px;
+}
+
+/** AMOUNT REQUIRED RANGE SLIDER **/
+.LoanDurationSliderDiv {
+    width: 100%;
+    height: 50px;
+    margin: 24% auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    position: relative;
+}
+
+#LoanDurationSlider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 13px;
+    outline: none;
+    border-radius: 3px;
+    background-color: #808080;
+    cursor: pointer;
+}
+
+    #LoanDurationSlider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 48px;
+        height: 50px;
+        cursor: pointer;
+        z-index: 3;
+        position: relative;
+    }
+
+#LoanDurationSliderSelector {
+    height: 130px;
+    width: 48px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+#LoanDurationSliderButton {
+    height: 35px;
+    width: 35px;
+    background-image: url(/shared/clock.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 28%;
+    left: 15%;
+}
+
+#LoanDurationSliderValue {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    background: #ae00ff;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    left: -51px;
+}
+
+    #LoanDurationSliderValue::after {
+        content: '';
+        border-top: 15px solid #ae00ff;
+        border-left: 24px solid #fff;
+        border-right: 24px solid #fff;
+        position: absolute;
+        bottom: -14px;
+        left: 51px;
+    }
+
+#LoanDurationSliderLabels {
+    padding-top: 10px;
+}

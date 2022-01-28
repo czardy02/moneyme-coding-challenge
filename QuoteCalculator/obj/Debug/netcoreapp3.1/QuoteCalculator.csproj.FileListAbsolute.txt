@@ -1,0 +1,131 @@
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.exe
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.deps.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.runtimeconfig.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.runtimeconfig.dev.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.Views.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.Views.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csprojAssemblyReference.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.AssemblyInfoInputs.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.AssemblyInfo.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csproj.CoreCompileInputs.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorAssemblyInfo.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorAssemblyInfo.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\staticwebassets\QuoteCalculator.StaticWebAssets.Manifest.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\staticwebassets\QuoteCalculator.StaticWebAssets.xml
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\scopedcss\bundle\QuoteCalculator.styles.css
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.TagHelpers.input.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.TagHelpers.output.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorCoreGenerate.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorTargetAssemblyInfo.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorTargetAssemblyInfo.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.Views.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.genruntimeconfig.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\training\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csproj.CopyComplete
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.exe
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.deps.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.runtimeconfig.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.runtimeconfig.dev.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.Views.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.Views.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csprojAssemblyReference.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.AssemblyInfoInputs.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.AssemblyInfo.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csproj.CoreCompileInputs.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorAssemblyInfo.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorAssemblyInfo.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\staticwebassets\QuoteCalculator.StaticWebAssets.Manifest.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\staticwebassets\QuoteCalculator.StaticWebAssets.xml
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\scopedcss\bundle\QuoteCalculator.styles.css
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.TagHelpers.input.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.TagHelpers.output.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorCoreGenerate.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorTargetAssemblyInfo.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorTargetAssemblyInfo.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.Views.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.genruntimeconfig.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csproj.CopyComplete
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Quotation\ApplicationStatus.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\New folder\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Quotation\QuotesCalculator.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.exe
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.deps.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.runtimeconfig.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.runtimeconfig.dev.json
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.Views.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\QuoteCalculator.Views.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csprojAssemblyReference.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.AssemblyInfoInputs.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.AssemblyInfo.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csproj.CoreCompileInputs.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorAssemblyInfo.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorAssemblyInfo.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\staticwebassets\QuoteCalculator.StaticWebAssets.Manifest.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\staticwebassets\QuoteCalculator.StaticWebAssets.xml
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\scopedcss\bundle\QuoteCalculator.styles.css
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.TagHelpers.input.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.TagHelpers.output.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorCoreGenerate.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Quotation\ApplicationStatus.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Quotation\QuotesCalculator.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorTargetAssemblyInfo.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.RazorTargetAssemblyInfo.cs
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.Views.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.pdb
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.genruntimeconfig.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csproj.CopyComplete
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.Migrations.QuoteCalculator_Migration_v10.resources
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.csproj.GenerateResource.cache
+C:\Users\cdy\Desktop\Czar Dy\Projects\ASP.NET Projects\QuoteCalculator\QuoteCalculator\obj\Debug\netcoreapp3.1\QuoteCalculator.Migrations.QuoteCalculator_Migration_v11.resources

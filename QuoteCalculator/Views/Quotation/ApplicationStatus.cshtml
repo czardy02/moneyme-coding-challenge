@@ -1,0 +1,78 @@
+﻿@model QuoteCalculator.Models.Data.ApplicationStatusRenderData
+
+@{
+    ViewData["Title"] = "Quotes Calculator Page";
+}
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="text-center">
+            <img src="/shared/success.gif" id="resultsImage" style="height: 150px; width: 150px;" />
+            <h1 id="resultsHeader" class="display-4">Congratulations!</h1>
+            <p id="resultsMessage" class="lead">Your loan application has been sent successfully.</p>
+            <hr />
+        </div>
+        <div class="row mr-1">
+            <div class="card col ml-3" style="width: 18rem;">
+
+                <!-- Application Summary -->
+                <div id="ApplicationSummaryDiv" class="mt-4">
+                    <h3>Loan Application Summary</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-left">
+                            <b>Finance Amount</b>
+                            <span id="ApplicationSummary_FinanceAmount" class="text-right" style="float: right">
+                                $@Model.FinanceAmount
+                            </span>
+                        </li>
+                        <li class="list-group-item text-left">
+                            <b>Repayments from</b>
+                            <span id="ApplicationSummary_Repayments" class="text-right" style="float: right">
+                                $@Model.Repayments <br />
+                                <span id="ApplicationSummary_LoanDuration" class="text-muted"><b>for @Model.LoanDuration month/s</b></span>
+                            </span>
+                        </li>
+
+                        <li class="list-group-item text-left small">
+                            <b><span class="ml-4">Establishment Fee</b></span>
+                            <span id="ApplicationSummary_EstablishmentFee" class="text-right text-muted" style="float: right">
+                                $@Model.EstablishmentFee <br />
+                            </span>
+                        </li>
+                        <li class="list-group-item text-left small">
+                            <b><span class="ml-4">Interest</b></span>
+                            <span id="ApplicationSummary_Interest" class="text-right text-muted" style="float: right">
+                                $@Model.Interest <br />
+                            </span>
+                        </li>
+                        <li class="list-group-item text-left">
+                            <h4>
+                                <b>Total Repayments</b>
+                                <span id="ApplicationSummary_TotalRepayments" class="text-right" style="float: right">
+                                    $@Model.TotalRepayments <br />
+                                </span>
+                            </h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-4">
+                    <p class="text-muted text-center">
+                        Please expect a call from our Loan Agents within 3-5 business days after the application has been submitted.<br />
+                        For any inquiries, feel free to <a href="">Contact Us</a>. <br /><br />
+                        Thank you for choosing <b>MoneyMe!</b>
+                    </p>
+                </div>
+
+                <div class="card-body text-right">
+                    <hr />
+                    <button type="button" class="card-link btn btn-success" data-toggle="" data-target="" data-whatever="" onclick="">Manage your Applications</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <br><br><br>
+            <p class="lead">Got some concerns? Send us an email at <b>czardy16@gmail.com</b>!</p><br><br><br>
+        </div>
+    </div>
+</div>

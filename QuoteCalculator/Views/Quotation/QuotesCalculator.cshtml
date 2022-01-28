@@ -1,0 +1,260 @@
+﻿@model QuoteCalculator.Models.Data.QuotesCalculatorRenderData
+
+@{
+    ViewData["Title"] = "Quotes Calculator Page";
+}
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="display-4">Quote Calculator</h1>
+            <p class="lead">Explore different loan options by having some sample quotations from our Quote Calculator</p><br><hr />
+        </div>
+        <div class="row mr-1">
+            <div class="card col ml-3" style="width: 18rem;">
+                <div class="card-body">
+                    <!-- LOAN PLAN -->
+                    <div id="LoanPlanDiv">
+                        <div class="row mb-2">
+                            <div class="col mt-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Choose your loan plan. <span class="fas fa-hand-holding-usd"></span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        @foreach(var Product in Model.ProductsMetaData) {
+                                            <a class="dropdown-item" href="#" onclick="return changeSelectedProduct('@Product.ProductName', '@Product.ProductIcon', '@Product.LowestLoanableAmount', '@Product.HighestLoanableAmount', '@Product.MinimumLoanDuration', '@Product.MaximumLoanDuration')">@Product.ProductName</a>
+                                        }
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Browse More Products</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col text-right mb-2">
+                                <h2 id="selectedProductHeader"><span class="fas @Model.UserResponse.Product.SelectedProduct.ProductIcon fa-2x"></span> <span id="SelectedProduct">@Model.UserResponse.Product.SelectedProduct.ProductName</span></h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PRICE RANGE SLIDER -->
+                    <div class="AmountRequiredSliderDiv text-center">
+                        <input id="AmountRequiredSlider" type="range" min="0" max="100" value="50" />
+                        <div id="AmountRequiredSliderSelector">
+                            <div id="AmountRequiredSliderButton"></div>
+                            <div id="AmountRequiredSliderValue"></div>
+                        </div>
+
+                        <div id="AmountRequiredSliderLabels">
+                            <div class="row">
+                                <p class="col lead text-left" id="AmountRequiredSlider_MinimumValueLabel">$@Model.UserResponse.Product.SelectedProduct.LowestLoanableAmount</p>
+                                <p class="col lead text-center" id="AmountRequiredSlider_InstructionLabel">How much do you want to loan?</p>
+                                <p class="col lead text-right" id="AmountRequiredSlider_MaximumValueLabel">$@Model.UserResponse.Product.SelectedProduct.HighestLoanableAmount</p>
+                            </div>
+                        </div>
+
+                        <script>
+                            var amountRequiredSlider = document.getElementById("AmountRequiredSlider");
+                            var amountRequiredSelector = document.getElementById("AmountRequiredSliderSelector");
+                            var amountRequiredSelectedValue = document.getElementById("AmountRequiredSliderValue");
+
+                            amountRequiredSelectedValue.innerHTML = "$" + adjustSlideLabel(amountRequiredSlider.value,
+                                document.getElementById("AmountRequiredSlider_MinimumValueLabel"),
+                                document.getElementById("AmountRequiredSlider_MaximumValueLabel"),
+                                "$")
+
+                            amountRequiredSlider.oninput = function () {
+                                amountRequiredSelectedValue.innerHTML = "$" + adjustSlideLabel(this.value,
+                                    document.getElementById("AmountRequiredSlider_MinimumValueLabel"),
+                                    document.getElementById("AmountRequiredSlider_MaximumValueLabel"),
+                                    "$")
+                                amountRequiredSelector.style.left = this.value + "%";
+                            }
+                        </script>
+                    </div>
+
+                    <!-- DURATION RANGE SLIDER -->
+                    <div class="LoanDurationSliderDiv text-center">
+                        <input id="LoanDurationSlider" type="range" min="0" max="100" value="50" />
+                        <div id="LoanDurationSliderSelector">
+                            <div id="LoanDurationSliderButton"></div>
+                            <div id="LoanDurationSliderValue"></div>
+                        </div>
+                        <div id="LoanDurationSliderLabels">
+                            <div class="row">
+                                <p class="col lead text-left" id="LoanDurationSlider_MinimumValueLabel">@Model.UserResponse.Product.SelectedProduct.MinimumLoanDuration month/s</p>
+                                <p class="col lead text-center" id="LoanDurationSlider_InstructionLabel">How long would you like to pay for your loan?</p>
+                                <p class="col lead text-right" id="LoanDurationSlider_MaximumValueLabel">@Model.UserResponse.Product.SelectedProduct.MaximumLoanDuration month/s</p>
+                            </div>
+                        </div>
+
+                        <script>
+                            var loanDurationSlider = document.getElementById("LoanDurationSlider");
+                            var loanDurationSelector = document.getElementById("LoanDurationSliderSelector");
+                            var loanDurationSelectedValue = document.getElementById("LoanDurationSliderValue");
+
+                            loanDurationSelectedValue.innerHTML = adjustSlideLabel(loanDurationSelectedValue.value,
+                                document.getElementById("LoanDurationSlider_MinimumValueLabel"),
+                                document.getElementById("LoanDurationSlider_MaximumValueLabel"),
+                                " month/s") + " month/s";
+
+                            loanDurationSelectedValue.innerHTML = adjustSlideLabel(this.value,
+                                document.getElementById("LoanDurationSlider_MinimumValueLabel"),
+                                document.getElementById("LoanDurationSlider_MaximumValueLabel"),
+                                " month/s") + " month/s";
+                            loanDurationSlider.oninput = function () {
+                                loanDurationSelectedValue.innerHTML = adjustSlideLabel(this.value,
+                                    document.getElementById("LoanDurationSlider_MinimumValueLabel"),
+                                    document.getElementById("LoanDurationSlider_MaximumValueLabel"),
+                                    " month/s") + " month/s";
+                                loanDurationSelector.style.left = this.value + "%";
+                            }
+                        </script>
+
+                    </div>
+
+                    <!-- USER INFO FIELDS -->
+                    <div class="form-group">
+                        <label for="UserFormsLabel" class="lead col-form-label">Please provide the following information.</label>
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span id="UserInquiryForm_Title">Title</span>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" onclick="return setUserTitleAs('Mr.')">Mr.</a>
+                                            <a class="dropdown-item" onclick="return setUserTitleAs('Ms.')">Ms.</a>
+                                            <a class="dropdown-item" onclick="return setUserTitleAs('Mrs.')">Mrs.</a>
+                                        </div>
+                                    </div>
+                                    <input id="UserInquiryForm_FirstName" type="text" class="form-control" placeholder="First name" value="@Model.UserResponse.User.FirstName" required>
+                                    <div id="UserInquiryForm_FirstName_Invalid" class="invalid-feedback">Please provide valid first name.</div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <input id="UserInquiryForm_LastName" type="text" class="form-control" placeholder="Last name" value="@Model.UserResponse.User.LastName" required>
+                                <div id="UserInquiryForm_LastName_Invalid" class="invalid-feedback">Please provide valid last name.</div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col" id="UserInquiryForm_Birthdate_Column">
+                                <input id="UserInquiryForm_Birthdate" type="text" class="form-control" placeholder="Date of Birth" onclick="return setDefaultValueForBirthdateDatePicker()" value="@Model.UserResponse.User.DateOfBirth" required/>
+                                <div id="UserInquiryForm_Birthdate_Invalid" class="invalid-feedback">Please provide valid birthdate (YYYY-MM-DD).</div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col">
+                                <input id="UserInquiryForm_Mobile" type="text" class="form-control" placeholder="Mobile Number" value="@Model.UserResponse.User.Mobile" required>
+                                <div id="UserInquiryForm_Mobile_Invalid" class="invalid-feedback">Please provide valid mobile number.</div>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col">
+                                <input id="UserInquiryForm_Email" type="text" class="form-control" placeholder="Email" value="@Model.UserResponse.User.Email" required>
+                                <div id="UserInquiryForm_Address_Invalid" class="invalid-feedback">Please provide valid mobile number.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mr-1 justify-content-center">
+                    <button id="CalculateQuoteButton" type="button" class="card-link btn btn-success mt-4 mb-4 text-center" data-toggle="modal" data-target="#QuotationResultsModal" data-whatever="QuotationResultsLabel">
+                        Calculate Quote
+                    </button>
+                </div>
+                <div class="row mr-1 justify-content-center">
+                    <p class="small text-mute"></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center">
+            <br><br><br>
+            <p class="lead">Got some concerns? Send me an email at <b>czardy16@gmail.com</b>!</p><br><br><br>
+        </div>
+    </div>
+</div>
+
+<!-- Quotation Results Modal -->
+<div class="modal fade" id="QuotationResultsModal" tabindex="-1" role="dialog" aria-labelledby="QuotationResultsLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="QuotationResultsLabel">Here's your quotation, @Model.UserResponse.User.FirstName!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="QuotationResultsTable">
+                <!-- User Information -->
+                <div id="UserInformationDiv">
+                    <h5>Your Information</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-left">
+                            <b>Full Name</b>
+                            <span id="QuotationResultsTable_FullName" style="float: right"></span>
+                        </li>
+                        <li class="list-group-item text-left">
+                            <b>Birth Date</b>
+                            <span id="QuotationResultsTable_BirthDate" style="float: right"></span>
+                        </li>
+                        <li class="list-group-item text-left">
+                            <b>Mobile</b>
+                            <span id="QuotationResultsTable_Mobile" style="float: right"></span>
+                        </li>
+                        <li class="list-group-item text-left">
+                            <b>Email Address</b>
+                            <span id="QuotationResultsTable_Email" style="float: right"></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Quotation Results -->
+                <div id="QuotationResultsDiv" class="mt-4">
+                    <h5>Finance Details</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-left">
+                            <b>Chosen Product</b>
+                            <span class="text-right" style="float: right">
+                                <span id="QuotationResultsTable_ChosenProduct"></span><br />
+                                <span id="QuotationResultsTable_ChosenProduct_Subtext" class="text-muted"></span>
+                            </span>
+                        </li>
+                        <li class="list-group-item text-left">
+                            <b>Finance Amount</b>
+                            <span class="text-right" style="float: right">
+                                <span id="QuotationResultsTable_FinanceAmount"></span><br />
+                                <span id="QuotationResultsTable_LoanDuration" class="text-muted"></span>
+                            </span>
+                        </li>
+                        <li class="list-group-item text-left">
+                            <b>Repayments from</b>
+                            <span class="text-right" style="float: right">
+                                <span id="QuotationResultsTable_Repayments"></span><br />
+                                <span id="QuotationResultsTable_RepaymentsFrequency" class="text-muted"><b>Monthly</b><br /></span>
+                                <span id="QuotationResultsTable_FreeInterestPeriod" class="small text-success"><b></b></span>
+                            </span>
+                        </li>
+                        <li class="list-group-item text-left ">
+                            <p class="h4">
+                                <b>Total Repayments</b>
+                                <span class="text-right" style="float: right">
+                                    <span id="QuotationResultsTable_TotalRepayments"></span><br />
+                                </span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footerApplyNowButton" class="text-center mb-4">
+                <button id="ApplyNowButton" type="button" class="btn btn-success">Apply Now!</button>
+            </div>
+            <div class="modal-footer text-align">
+                <div id="footerTermsAndConditions" class="small text-center ml-5 mr-5">
+                    <b><u></u>Important: </b><u></u> Total Repayments include <b>@Model.UserResponse.Product.SelectedProduct.InterestRate% interest and additional $@Model.UserResponse.Product.SelectedProduct.EstablishmentFee establishment fee</b> which are both subject to change based from our <a href="" onclick="return show_alert('Dummy link for UI purposes only. Doesn\'t redirect to any pages.')"><b>Terms and Conditions</b></a></>.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
